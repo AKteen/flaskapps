@@ -6,7 +6,7 @@ app= Flask(__name__)
 
 @app.route('/')
 def homepage():
-    return render_template('cheems.html', com_name="Microsoft")
+    return render_template('home.html', com_name="Microsoft")
 
 app.run(host='0.0.0.0', debug=True)
 
